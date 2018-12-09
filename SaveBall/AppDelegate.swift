@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SaveBall
 //
-//  Created by Kaira on 03/07/18.
-//  Copyright © 2018 Kaira. All rights reserved.
+//  Created by paresh on 18/06/18.
+//  Copyright © 2018 Saka paresh. All rights reserved.
 //
 
 import UIKit

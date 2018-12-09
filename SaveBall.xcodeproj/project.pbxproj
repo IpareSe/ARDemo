@@ -12,6 +12,15 @@
 		A2303FB020EB43CB00083401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2303FAE20EB43CB00083401 /* Main.storyboard */; };
 		A2303FB220EB43CB00083401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2303FB120EB43CB00083401 /* Assets.xcassets */; };
 		A2303FB520EB43CB00083401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2303FB320EB43CB00083401 /* LaunchScreen.storyboard */; };
+		A2303FBE20EB444C00083401 /* ControllVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2303FBD20EB444C00083401 /* ControllVC.swift */; };
+		A238F1FC20ECC81B00E15F19 /* rocketship.scn in Resources */ = {isa = PBXBuildFile; fileRef = A238F1FB20ECC81B00E15F19 /* rocketship.scn */; };
+		A26D215220ECE41800FE8121 /* Explode.scnp in Resources */ = {isa = PBXBuildFile; fileRef = A26D215120ECE41800FE8121 /* Explode.scnp */; };
+		A29B5FBB20EB4EA100D5AE66 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B5FBA20EB4EA100D5AE66 /* Bottle.swift */; };
+		A29B5FBD20EB546A00D5AE66 /* Beachball.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29B5FBC20EB546A00D5AE66 /* Beachball.swift */; };
+		A29B5FC020EB97A100D5AE66 /* reactor.scnp in Resources */ = {isa = PBXBuildFile; fileRef = A29B5FBE20EB97A100D5AE66 /* reactor.scnp */; };
+		A29B5FC120EB97A100D5AE66 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A29B5FBF20EB97A100D5AE66 /* spark.png */; };
+		A29B5FC420EB97C200D5AE66 /* broken.scnp in Resources */ = {isa = PBXBuildFile; fileRef = A29B5FC220EB97C200D5AE66 /* broken.scnp */; };
+		A29B5FC520EB97C200D5AE66 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = A29B5FC320EB97C200D5AE66 /* bokeh.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		A2303FB120EB43CB00083401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2303FB420EB43CB00083401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2303FB620EB43CB00083401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2303FBD20EB444C00083401 /* ControllVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllVC.swift; sourceTree = "<group>"; };
+		A238F1FB20ECC81B00E15F19 /* rocketship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = rocketship.scn; sourceTree = "<group>"; };
+		A26D215120ECE41800FE8121 /* Explode.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explode.scnp; sourceTree = "<group>"; };
+		A29B5FBA20EB4EA100D5AE66 /* Bottle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		A29B5FBC20EB546A00D5AE66 /* Beachball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beachball.swift; sourceTree = "<group>"; };
+		A29B5FBE20EB97A100D5AE66 /* reactor.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = reactor.scnp; sourceTree = "<group>"; };
+		A29B5FBF20EB97A100D5AE66 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		A29B5FC220EB97C200D5AE66 /* broken.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = broken.scnp; sourceTree = "<group>"; };
+		A29B5FC320EB97C200D5AE66 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,47 @@
 		A2303FA920EB43CB00083401 /* SaveBall */ = {
 			isa = PBXGroup;
 			children = (
+				A238F1F820ECC7D500E15F19 /* Model */,
+				A2303FBC20EB442800083401 /* Classes */,
 				A2303FAA20EB43CB00083401 /* AppDelegate.swift */,
 				A2303FAC20EB43CB00083401 /* ViewController.swift */,
 				A2303FAE20EB43CB00083401 /* Main.storyboard */,
 				A2303FB120EB43CB00083401 /* Assets.xcassets */,
 				A2303FB320EB43CB00083401 /* LaunchScreen.storyboard */,
 				A2303FB620EB43CB00083401 /* Info.plist */,
+				A26D215120ECE41800FE8121 /* Explode.scnp */,
+				A29B5FBE20EB97A100D5AE66 /* reactor.scnp */,
+				A29B5FBF20EB97A100D5AE66 /* spark.png */,
+				A29B5FC220EB97C200D5AE66 /* broken.scnp */,
+				A29B5FC320EB97C200D5AE66 /* bokeh.png */,
 			);
 			path = SaveBall;
+			sourceTree = "<group>";
+		};
+		A2303FBC20EB442800083401 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2303FBD20EB444C00083401 /* ControllVC.swift */,
+				A29B5FBA20EB4EA100D5AE66 /* Bottle.swift */,
+				A29B5FBC20EB546A00D5AE66 /* Beachball.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A238F1F820ECC7D500E15F19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A238F1FA20ECC81B00E15F19 /* rocketship */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A238F1FA20ECC81B00E15F19 /* rocketship */ = {
+			isa = PBXGroup;
+			children = (
+				A238F1FB20ECC81B00E15F19 /* rocketship.scn */,
+			);
+			path = rocketship;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +142,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Kaira;
 				TargetAttributes = {
 					A2303FA620EB43CB00083401 = {
@@ -123,8 +174,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29B5FC420EB97C200D5AE66 /* broken.scnp in Resources */,
+				A29B5FC120EB97A100D5AE66 /* spark.png in Resources */,
 				A2303FB520EB43CB00083401 /* LaunchScreen.storyboard in Resources */,
 				A2303FB220EB43CB00083401 /* Assets.xcassets in Resources */,
+				A238F1FC20ECC81B00E15F19 /* rocketship.scn in Resources */,
+				A26D215220ECE41800FE8121 /* Explode.scnp in Resources */,
+				A29B5FC520EB97C200D5AE66 /* bokeh.png in Resources */,
+				A29B5FC020EB97A100D5AE66 /* reactor.scnp in Resources */,
 				A2303FB020EB43CB00083401 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +194,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2303FAD20EB43CB00083401 /* ViewController.swift in Sources */,
+				A29B5FBD20EB546A00D5AE66 /* Beachball.swift in Sources */,
+				A29B5FBB20EB4EA100D5AE66 /* Bottle.swift in Sources */,
 				A2303FAB20EB43CB00083401 /* AppDelegate.swift in Sources */,
+				A2303FBE20EB444C00083401 /* ControllVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +237,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +245,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +296,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +304,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -277,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9R44EXA8L6;
 				INFOPLIST_FILE = SaveBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaira.SaveBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9R44EXA8L6;
 				INFOPLIST_FILE = SaveBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaira.SaveBall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
